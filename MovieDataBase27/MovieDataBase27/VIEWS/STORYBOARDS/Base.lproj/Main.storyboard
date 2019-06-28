@@ -12,7 +12,7 @@
         <!--Search For a Movie-->
         <scene sceneID="4Bb-K5-vYI">
             <objects>
-                <tableViewController id="7Vt-Gz-Fjg" sceneMemberID="viewController">
+                <tableViewController id="7Vt-Gz-Fjg" customClass="MovieSearchTableViewController" customModule="MovieDataBase27" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fp7-TD-0tX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="143.47826086956522" y="89.732142857142847"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Movie List Table View Controller-->
         <scene sceneID="uBL-cW-UxU">
             <objects>
-                <tableViewController id="4RB-G4-NWY" sceneMemberID="viewController">
+                <tableViewController id="4RB-G4-NWY" customClass="MovieListTableViewController" customModule="MovieDataBase27" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5ih-HI-lbg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

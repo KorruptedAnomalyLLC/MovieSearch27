@@ -10,9 +10,9 @@ import Foundation
 
 class Movie: Decodable {
     
-    let title: String
-    let overview: String
-    let image: URL
+    let title: String?
+    let overview: String?
+    let image: URL?
     // Add this in if there is time
     // let vote_average: Double
     
