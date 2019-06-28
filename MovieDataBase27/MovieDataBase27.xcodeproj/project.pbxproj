@@ -11,6 +11,8 @@
 		0C0FA05722C668FD001BA1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0FA05522C668FD001BA1F5 /* Main.storyboard */; };
 		0C0FA05922C668FD001BA1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0FA05822C668FD001BA1F5 /* Assets.xcassets */; };
 		0C0FA05C22C668FD001BA1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0FA05A22C668FD001BA1F5 /* LaunchScreen.storyboard */; };
+		0CC463AA22C66C7D00E004EB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC463A922C66C7D00E004EB /* Movie.swift */; };
+		0CC463AC22C6712500E004EB /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC463AB22C6712500E004EB /* MovieController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0C0FA05822C668FD001BA1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0FA05B22C668FD001BA1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0FA05D22C668FD001BA1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC463A922C66C7D00E004EB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0CC463AB22C6712500E004EB /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		0C0FA06722C669A9001BA1F5 /* MODEL CONTROLLERS */ = {
 			isa = PBXGroup;
 			children = (
+				0CC463AB22C6712500E004EB /* MovieController.swift */,
 			);
 			path = "MODEL CONTROLLERS";
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 		0C0FA06922C669C5001BA1F5 /* MODELS */ = {
 			isa = PBXGroup;
 			children = (
+				0CC463A922C66C7D00E004EB /* Movie.swift */,
 			);
 			path = MODELS;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC463AC22C6712500E004EB /* MovieController.swift in Sources */,
+				0CC463AA22C66C7D00E004EB /* Movie.swift in Sources */,
 				0C0FA05222C668FD001BA1F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
